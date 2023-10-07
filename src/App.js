@@ -1,10 +1,15 @@
-import CounterClass from "./classComponents/CounterClass";
+import Footer from "./Footer";
+import Header from "./Header";
+import AppRouter from "./routes/AppRouter";
 
 function App() {
   return (
     <>
-      <CounterClass />
-      <div></div>
+      <div>
+        <Header />
+        <AppRouter />
+        <Footer />
+      </div>
     </>
   );
 }

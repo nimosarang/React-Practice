@@ -1,0 +1,14 @@
+.headerWrapper {
+  margin-bottom: 10px;
+}
+
+.menuWrapper {
+  display: flex;
+  gap: 10px;
+  justify-items: flex-start;
+  align-items: center;
+}
+
+.header {
+  align-items: center;
+}
